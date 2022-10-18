@@ -5,6 +5,8 @@ const secondsEl = document.getElementById('seconds');
 
 const newYears = "1 Jan 2023";
 
+// You can set whatever time you want. Even your birthday :)
+
 function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
